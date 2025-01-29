@@ -49,11 +49,23 @@ cmake_ninja_workdir = /Users/sungho/CLionProjects/cop3503c/cmake-build-debug/
 
 build cmake_object_order_depends_target_cop3503c: phony || .
 
-build CMakeFiles/cop3503c.dir/lab1.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/lab1.cpp || cmake_object_order_depends_target_cop3503c
-  DEP_FILE = CMakeFiles/cop3503c.dir/lab1.cpp.o.d
+build CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab1/lab1.cpp || cmake_object_order_depends_target_cop3503c
+  DEP_FILE = CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
-  OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir
+  OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab1
+
+build CMakeFiles/cop3503c.dir/Lab2/lab2.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab2/lab2.cpp || cmake_object_order_depends_target_cop3503c
+  DEP_FILE = CMakeFiles/cop3503c.dir/Lab2/lab2.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cop3503c.dir
+  OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab2
+
+build CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab2/lab2_main.cpp || cmake_object_order_depends_target_cop3503c
+  DEP_FILE = CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cop3503c.dir
+  OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab2
 
 
 # =============================================================================
@@ -63,7 +75,7 @@ build CMakeFiles/cop3503c.dir/lab1.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug
 #############################################
 # Link the executable cop3503c
 
-build cop3503c: CXX_EXECUTABLE_LINKER__cop3503c_Debug CMakeFiles/cop3503c.dir/lab1.cpp.o
+build cop3503c: CXX_EXECUTABLE_LINKER__cop3503c_Debug CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o CMakeFiles/cop3503c.dir/Lab2/lab2.cpp.o CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   POST_BUILD = :
