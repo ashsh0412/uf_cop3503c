@@ -1,4 +1,4 @@
-#include "lab2.h"
+#include "Vehicle.h"
 #include <iostream>
 #include <string>
 
@@ -30,10 +30,6 @@ float Vehicle::GetPrice() {
     return price;
 }
 
-Showroom::Showroom() {
-    name = "Unnamed Showroom";
-    capacity = 0;
-}
 
 
 

@@ -67,6 +67,12 @@ build CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o: CXX_COMPILER__cop3503c_unsca
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab2
 
+build CMakeFiles/cop3503c.dir/Lab2/Showroom.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab2/Showroom.cpp || cmake_object_order_depends_target_cop3503c
+  DEP_FILE = CMakeFiles/cop3503c.dir/Lab2/Showroom.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cop3503c.dir
+  OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cop3503c
@@ -75,7 +81,7 @@ build CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o: CXX_COMPILER__cop3503c_unsca
 #############################################
 # Link the executable cop3503c
 
-build cop3503c: CXX_EXECUTABLE_LINKER__cop3503c_Debug CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o CMakeFiles/cop3503c.dir/Lab2/lab2.cpp.o CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o
+build cop3503c: CXX_EXECUTABLE_LINKER__cop3503c_Debug CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o CMakeFiles/cop3503c.dir/Lab2/lab2.cpp.o CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o CMakeFiles/cop3503c.dir/Lab2/Showroom.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   POST_BUILD = :
