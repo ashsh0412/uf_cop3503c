@@ -29,8 +29,3 @@ std::string Vehicle::GetYearMakeModel() {
 float Vehicle::GetPrice() {
     return price;
 }
-
-
-
-
-

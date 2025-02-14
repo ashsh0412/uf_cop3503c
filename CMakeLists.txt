@@ -10,4 +10,8 @@ add_executable(cop3503c Lab1/lab1.cpp
         Lab2/Showroom.cpp
         Lab2/Showroom.h
         Lab2/Dealership.cpp
-        Lab2/Dealership.h)
+        Lab2/Dealership.h
+        Lab3/ContactBook.cpp
+        Lab3/ContactBook.h
+        Lab3/lab3_main.cpp
+)
