@@ -14,4 +14,6 @@ add_executable(cop3503c Lab1/lab1.cpp
         Lab3/ContactBook.cpp
         Lab3/ContactBook.h
         Lab3/lab3_main.cpp
+        Lab4/lab4_main.cpp
+        Lab4/ABS.h
 )
