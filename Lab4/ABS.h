@@ -35,23 +35,27 @@ public:
             for (unsigned int i = 0; i < size; i++) {
                 newData[i] = data[i];  // 기존 데이터 복사
             }
-            delete[] data;  // 기존 배열 메모리 해제
-            data = newData;  // 새로운 배열로 변경
-            maxCapacity *= 2;  // 최대 용량 두 배로 증가
+            delete[] data;
+            data = newData;
+            maxCapacity *= 2;
         }
 
         data[size] = value;  // 새로운 데이터 추가
-        size++;  // 스택 크기 증가
+        size++;
     }
 
     // 데이터를 스택에서 꺼내는 함수
     T pop() {
-        if (size == 0) throw std::runtime_error("Stack is empty");
-
+        if (size == 0) {
+            throw std::runtime_error("Stack is empty");
+        }
         T value = data[--size];
 
-        if (size < maxCapacity / 2 && maxCapacity > 1) {  // 정확한 비율 검사
-            maxCapacity /= 2;
+        float scaleFactor = 2.0f;  // 축소 비율을 2로 설정 (1/2로 축소)
+
+        if (size / (float)maxCapacity < 1 / scaleFactor && maxCapacity > 1) {
+            // 용량 축소 (최소 1 이상)
+            maxCapacity = std::max(maxCapacity / 2, 1u);
             T* newData = new T[maxCapacity];
             for (unsigned int i = 0; i < size; i++) {
                 newData[i] = data[i];
@@ -72,18 +76,18 @@ public:
 
     // 스택의 현재 크기 반환
     unsigned int getSize() {
-        return size;  // 현재 스택 크기 반환
+        return size;
     }
 
     // 스택의 최대 용량 반환
     unsigned int getMaxCapacity() {
-        return maxCapacity;  // 최대 용량 반환
+        return maxCapacity;
     }
 
     // 스택의 데이터 배열 반환
     T* getData() {
-        return data;  // 데이터 배열 반환
+        return data;
     }
 };
 
-#endif // ABS_H
+#endif

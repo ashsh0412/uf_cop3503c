@@ -16,4 +16,9 @@ add_executable(cop3503c Lab1/lab1.cpp
         Lab3/lab3_main.cpp
         Lab4/lab4_main.cpp
         Lab4/ABS.h
+        Lab3/ABQ.h
+        Exam1/question1.h
+        Exam1/question2.h
+        Exam1/question3.h
+        Exam1/question4.h
 )
