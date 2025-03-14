@@ -22,4 +22,7 @@ add_executable(cop3503c Lab1/lab1.cpp
         Exam1/question3.h
         Exam1/question4.h
         Project1/project1.h
+        Lab5/extrafile.h
+        Lab5/extrafile.cpp
+        Lab5/lab5_main.cpp
 )
