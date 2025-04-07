@@ -51,63 +51,75 @@ build cmake_object_order_depends_target_cop3503c: phony || .
 
 build CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab1/lab1.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab1
 
 build CMakeFiles/cop3503c.dir/Lab2/Vehicle.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab2/Vehicle.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab2/Vehicle.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab2
 
 build CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab2/lab2_main.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab2
 
 build CMakeFiles/cop3503c.dir/Lab2/Showroom.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab2/Showroom.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab2/Showroom.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab2
 
 build CMakeFiles/cop3503c.dir/Lab2/Dealership.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab2/Dealership.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab2/Dealership.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab2
 
 build CMakeFiles/cop3503c.dir/Lab3/ContactBook.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab3/ContactBook.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab3/ContactBook.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab3
 
 build CMakeFiles/cop3503c.dir/Lab3/lab3_main.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab3/lab3_main.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab3/lab3_main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab3
 
 build CMakeFiles/cop3503c.dir/Lab4/lab4_main.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab4/lab4_main.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab4/lab4_main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab4
 
 build CMakeFiles/cop3503c.dir/Lab5/extrafile.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab5/extrafile.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab5/extrafile.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab5
 
 build CMakeFiles/cop3503c.dir/Lab5/lab5_main.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab5/lab5_main.cpp || cmake_object_order_depends_target_cop3503c
   DEP_FILE = CMakeFiles/cop3503c.dir/Lab5/lab5_main.cpp.o.d
-  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1 -fcolor-diagnostics
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab5
+
+build CMakeFiles/cop3503c.dir/Lab6/BankAccount.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab6/BankAccount.cpp || cmake_object_order_depends_target_cop3503c
+  DEP_FILE = CMakeFiles/cop3503c.dir/Lab6/BankAccount.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cop3503c.dir
+  OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab6
+
+build CMakeFiles/cop3503c.dir/Lab6/Bank.cpp.o: CXX_COMPILER__cop3503c_unscanned_Debug /Users/sungho/CLionProjects/cop3503c/Lab6/Bank.cpp || cmake_object_order_depends_target_cop3503c
+  DEP_FILE = CMakeFiles/cop3503c.dir/Lab6/Bank.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -mmacosx-version-min=15.1 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/cop3503c.dir
+  OBJECT_FILE_DIR = CMakeFiles/cop3503c.dir/Lab6
 
 
 # =============================================================================
@@ -117,8 +129,8 @@ build CMakeFiles/cop3503c.dir/Lab5/lab5_main.cpp.o: CXX_COMPILER__cop3503c_unsca
 #############################################
 # Link the executable cop3503c
 
-build cop3503c: CXX_EXECUTABLE_LINKER__cop3503c_Debug CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o CMakeFiles/cop3503c.dir/Lab2/Vehicle.cpp.o CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o CMakeFiles/cop3503c.dir/Lab2/Showroom.cpp.o CMakeFiles/cop3503c.dir/Lab2/Dealership.cpp.o CMakeFiles/cop3503c.dir/Lab3/ContactBook.cpp.o CMakeFiles/cop3503c.dir/Lab3/lab3_main.cpp.o CMakeFiles/cop3503c.dir/Lab4/lab4_main.cpp.o CMakeFiles/cop3503c.dir/Lab5/extrafile.cpp.o CMakeFiles/cop3503c.dir/Lab5/lab5_main.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -mmacosx-version-min=15.1
+build cop3503c: CXX_EXECUTABLE_LINKER__cop3503c_Debug CMakeFiles/cop3503c.dir/Lab1/lab1.cpp.o CMakeFiles/cop3503c.dir/Lab2/Vehicle.cpp.o CMakeFiles/cop3503c.dir/Lab2/lab2_main.cpp.o CMakeFiles/cop3503c.dir/Lab2/Showroom.cpp.o CMakeFiles/cop3503c.dir/Lab2/Dealership.cpp.o CMakeFiles/cop3503c.dir/Lab3/ContactBook.cpp.o CMakeFiles/cop3503c.dir/Lab3/lab3_main.cpp.o CMakeFiles/cop3503c.dir/Lab4/lab4_main.cpp.o CMakeFiles/cop3503c.dir/Lab5/extrafile.cpp.o CMakeFiles/cop3503c.dir/Lab5/lab5_main.cpp.o CMakeFiles/cop3503c.dir/Lab6/BankAccount.cpp.o CMakeFiles/cop3503c.dir/Lab6/Bank.cpp.o
+  FLAGS = -g -arch arm64 -mmacosx-version-min=15.1
   OBJECT_DIR = CMakeFiles/cop3503c.dir
   POST_BUILD = :
   PRE_LINK = :

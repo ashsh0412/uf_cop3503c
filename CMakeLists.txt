@@ -25,4 +25,8 @@ add_executable(cop3503c Lab1/lab1.cpp
         Lab5/extrafile.h
         Lab5/extrafile.cpp
         Lab5/lab5_main.cpp
+        Lab6/BankAccount.cpp
+        Lab6/BankAccount.h
+        Lab6/Bank.cpp
+        Lab6/Bank.h
 )
